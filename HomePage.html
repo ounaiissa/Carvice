@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/homepage.css" />
+    <link rel="stylesheet" href="static/css/all.min.css" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+    <title>Carvice</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <div class="home">
+      <div class="bg">
+        <nav
+          class="px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+          id="navbar_top"
+        >
+          <div
+            class="container flex flex-wrap justify-between items-center mx-auto"
+          >
+            <a href="#" class="flex items-center">
+              <img
+                src="static/images/carviceslogo.png"
+                class="mr-3 h-6 sm:h-9"
+                alt="Carvise Logo"
+              />
+              <span
+                class="self-center text-xl font-semibold whitespace-nowrap text-white"
+              ></span>
+            </a>
+           
+            <div class="flex md:order-2">
+        
+
+              <button
+                data-collapse-toggle="navbar-sticky"
+                type="button"
+                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div
+              class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              <ul
+                class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Our Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Our Cars</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+  
+        <div class="homeContent">
+          <div class="slogon">
+            <h1><i>Book</i> your car now,</h1>
+            <p>We offer you some of the most sought after brands</p>
+            <button type="button" class="btn btn-lg">EXPLORE</button>
+          </div>
+          <div class="booking">
+            <h1>Departure</h1>
+            <form id="firstform" class="form-inline">
+              <select
+                class="custom-select my-1 mr-sm-2"
+                id="inlineFormCustomSelectPref"
+              >
+                <option selected>Choose City</option>
+                <option value="1">Rabat</option>
+                <option value="2">Casablanca</option>
+                <option value="3">Agadir</option>
+                <option value="4">Marrakech</option>
+                <option value="5">Tanger</option>
+              </select>
+            </form>
+            <div id="firstform" class="oneline">
+              <input type="time" />
+              <input type="date" />
+            </div>
+
+            <h1>Return</h1>
+            <form id="firstform" class="form-inline">
+              <select
+                class="custom-select my-1 mr-sm-2"
+                id="inlineFormCustomSelectPref"
+              >
+                <option selected>Choose City</option>
+                <option value="1">Rabat</option>
+                <option value="2">Casablanca</option>
+                <option value="3">Agadir</option>
+                <option value="4">Marrakech</option>
+                <option value="5">Tanger</option>
+              </select>
+            </form>
+            <div id="firstform" class="oneline">
+              <input type="time" />
+              <input type="date" />
+            </div>
+            
+              <button  type="button" class="btn btn-lg" onClick="openPopup();">Book Now!</button>
+              <div id="book" class="popup">
+                <div class="cancel" onclick="closePopup();">x</div>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label"
+                      >Last Name</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="inputPassword4"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress"
+                      placeholder="1234 Main St"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress2" class="form-label"
+                      >Address 2</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress2"
+                      placeholder="Apartment, studio, or floor"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity" />
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" />
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="gridCheck"
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        Check me out
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button id="signup" type="submit" class="btn btn-lg ">
+                      Confirm reservation
+                    </button>
+                  </div>
+                </form>
+               
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div class="about">
+      <img src="static/images/faq.jpg" alt="" />
+      <div class="box">
+        <p>
+          Car rental (carvices). It offers high quality cars at unbeatable
+          prices in the market. We offer car rental offers that meet all your
+          needs. Carvices, is the easiest and fastest way to get a competitive
+          price online. All of our cars are equipped with air conditioning.
+          (carvices) provides high quality service with a personal touch and
+          flexibility according to your specific needs. Our prices are all
+          inclusive and we guarantee that there will be no additional costs.
+        </p>
+      </div>
+    </div>
+
+    <!-- cars display -->
+    <div class="car-display">
+      <div class="car-menu">
+        <i class="fa-solid fa-arrows-left-right"></i>
+        <div class="btn-group">
+          <button>All</button>
+          <button>Disponible</button>
+        </div>
+      </div>
+      <div class="cars">
+        <div class="car-box">
+          <img src="static/images/div2.jpg" alt="" />
+
+          <h3>Mercedes</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>350 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+
+        <div class="car-box">
+          <img src="static/images/div3.jpg" alt="" />
+
+          <h3>DACIA</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>250 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+
+        <div class="car-box">
+          <img src="static/images/div5.png" alt="" />
+
+          <h3>Audi</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>350 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+
+        <div class="car-box">
+          <img src="static/images/div9.png" alt="" />
+
+          <h3>Renault</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>350 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+
+        <div class="car-box">
+          <img src="static/images/div2.jpg" alt="" />
+
+          <h3>AUDI</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>350 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+
+        <div class="car-box">
+          <img src="static/images/div2.jpg" alt="" />
+
+          <h3>AUDI</h3>
+          <div class="price-flex">
+            <h4>Price:</h4>
+            <h4>350 MAD/Day</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Year:</p>
+              <p>2020</p>
+            </li>
+            <li class="list-group-item">
+              <p>Crabonat:</p>
+              <p>Gasoil</p>
+            </li>
+            <li class="list-group-item">
+              <p>81,000</p>
+              <p>Km</p>
+            </li>
+          </ul>
+          <div class="buttonn">
+            <button type="button" class="btn" id="uno">Details</button>
+            <button type="button" class="btn" id="scnd">Book a car</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ad --  >
+
+<!--  dk-->
+    <div class="ad">
+      <div class="bg2">
+        <div class="text">
+          <div class="flextext">
+            <div class="color">Reserve</div>
+            <div class="rest">your car</div>
+          </div>
+          now,anytime and anywhere!
+        </div>
+      </div>
+    </div>
+
+    <!-- advantages -->
+
+    <div class="advantages">
+      <h1>Our Advantages</h1>
+      <div class="box-container">
+        <div class="boxs">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <h2>QUALITY AND EXPERIENCE</h2>
+          <p>Experts for over 10 years to help you rent a car in Morocco</p>
+        </div>
+        <div class="boxm">
+          <i class="fa-solid fa-check-to-slot"></i>
+          <h2>FREE CANCELATION</h2>
+          <p>Cancellation without charge up to 24 hours prior to rental.</p>
+        </div>
+        <div class="boxs">
+          <i class="fa-solid fa-money-bill-1"></i>
+          <h2>BEST PRICE GUARANTEE</h2>
+          <p>We guarantee the best rates for our car rental deals!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- must know ad -->
+    <div class="ad2">
+      <div class="title">
+        What you need to know
+        <div class="before">before</div>
+      </div>
+      <div class="book">booking!</div>
+      <div class="flex-circle">
+        <div class="circle-holder">
+          <div class="circle">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <h1>Age must be above 21 years old</h1>
+        </div>
+        <div class="circle-holder">
+          <div class="circle">
+            <i class="fa-solid fa-money-bill"></i>
+          </div>
+          <h1>Payment includes auto deductibles</h1>
+        </div>
+        <div class="circle-holder">
+          <div class="circle">
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <h1>Car franchises</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="testimonials">
+      <div class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                  <p class="description">
+                    " Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A accusantium ad asperiores at atque culpa dolores eaque
+                    fugiat hic illo ipsam ipsum minima modi necessitatibus nemo
+                    officia, omnis perferendis placeat sit vitae, consectetur
+                    adipisicing elit ipsam. "
+                  </p>
+                  <h3 class="title">Williamson</h3>
+                  <div class="pic">
+                    <img src="static/images/user3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <p class="description">
+                    " Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A accusantium ad asperiores at atque culpa dolores eaque
+                    fugiat hic illo ipsam ipsum minima modi necessitatibus nemo
+                    officia, omnis perferendis placeat sit vitae, consectetur
+                    adipisicing elit ipsam. "
+                  </p>
+                  <h3 class="title">Rubylee</h3>
+                  <div class="pic">
+                    <img src="static/images/user2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <p class="description">
+                    " Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A accusantium ad asperiores at atque culpa dolores eaque
+                    fugiat hic illo ipsam ipsum minima modi necessitatibus nemo
+                    officia, omnis perferendis placeat sit vitae, consectetur
+                    adipisicing elit ipsam. "
+                  </p>
+                  <h3 class="title">Kristina</h3>
+                  <div class="pic">
+                    <img src="static/images/user1.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#testimonial-slider").owlCarousel({
+          items: 1,
+          itemsDesktop: [1000, 1],
+          itemsDesktopSmall: [979, 1],
+          itemsTablet: [769, 1],
+          pagination: true,
+          transitionStyle: "goDown",
+          autoplay: true,
+        });
+      });
+    </script>
+
+    <!-- END OF TESTIMONIALS -->
+
+    <!-- faq -->
+    <div class="FAQ">
+      <div class="faq-img">
+        <img src="static/images/about.jpg" alt="" />
+      </div>
+      <div class="faq-body">
+        <section id="faq">
+          <div class="faq">
+            <div class="question">
+              <h3>What do I need to rent a car ?</h3>
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                <path
+                  d="M3 3L21 21L39 3"
+                  storke="white"
+                  storke-width="7"
+                  storke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="answer">
+              <p>
+                first of all you should have a driving license -obviously-. the
+                license must be more than 2 years old, an identity card or
+                passport available and proof of residence.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question">
+              <h3>
+                Can anyone besides the reservation applicant drive the car?
+              </h3>
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                <path
+                  d="M3 3L21 21L39 3"
+                  storke="white"
+                  storke-width="7"
+                  storke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="answer">
+              <p>
+                For the price, it depends on your situation they're higher
+                prices and lower ones you can pick whatever you want. we're here
+                to serve our clients.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question">
+              <h3>
+                Can beginner drivers (driving with a driver’s license issued
+                less than one year ago) also rent a car?
+              </h3>
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                <path
+                  d="M3 3L21 21L39 3"
+                  storke="white"
+                  storke-width="7"
+                  storke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="answer">
+              <p>
+                For the price, it depends on your situation they're higher
+                prices and lower ones you can pick whatever you want. we're here
+                to serve our clients.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question">
+              <h3>Can eldery people rent a car ?</h3>
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                <path
+                  d="M3 3L21 21L39 3"
+                  storke="white"
+                  storke-width="7"
+                  storke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="answer">
+              <p>
+                For the price, it depends on your situation they're higher
+                prices and lower ones you can pick whatever you want. we're here
+                to serve our clients.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="question">
+              <h3>What do I need to rent a car ?</h3>
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                <path
+                  d="M3 3L21 21L39 3"
+                  storke="white"
+                  storke-width="7"
+                  storke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="answer">
+              <p>
+                For the price, it depends on your situation they're higher
+                prices and lower ones you can pick whatever you want. we're here
+                to serve our clients.
+              </p>
+            </div>
+
+            <script>
+              const faqs = document.querySelectorAll(".faq");
+
+              faqs.forEach((faq) => {
+                faq.addEventListener("click", () => {
+                  faq.classList.toggle("active");
+                });
+              });
+            </script>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="bg3">
+        <div class="flex-footer">
+          <div class="contact">
+            <h2>Contact</h2>
+            <p>
+              Rue alhassan 2, 1er Étage N°40 Galerie Familia essalam Agadir
+              +2126 10 00  00 +2126 75 00 00  contact@carvices.com
+              www.carvices.com
+            </p>
+          </div>
+          <div class="company">
+            <h2>company</h2>
+            <p>
+              Carvices in Agadir, Morocco offers quality cars at unbeatable
+              prices in the most important cities of Morocco. We offer carvices
+              offers in Morocco in Agadir that meet all your needs.
+            </p>
+          </div>
+          <div class="important">
+            <h2>Important Links</h2>
+            <p>
+              Car hire in Agadir Car hire in ait mellol Car hire in Casablanca
+              Car hire in Fez Car hire in Marrakech
+            </p>
+          </div>
+        </div>
+        <div class="sousfooter">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="forml">
+            <h3>Subscribe to our new updates:</h3>
+            <label for="email"></label>
+            <input type="email" />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckIndeterminate"
+              />
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                I agree to receive update from Carvice.
+              </label>
+            </div>
+            <button type="button" class="btn btn-lg">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
